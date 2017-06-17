@@ -1,6 +1,6 @@
 const Alexa = require("alexa-sdk");
 const RapidAPI = require('rapidapi-connect');
-const rapid = new RapidAPI("Your Rapid projectName", "Your Rapid Project Key");
+const rapid = new RapidAPI(default-application_5943a68ce4b08a5f8310b0ce', '80394ec6-315c-4a75-92b8-b13bfac7f51b');
 
 var handlers = {
   'LaunchRequest': function() {
@@ -24,7 +24,7 @@ var handlers = {
     var langCode = langCodes[language];
 
     rapid.call('GoogleTranslate', 'translateAutomatic', {
-	     'apiKey': 'Your Google API key',
+	     'apiKey': 'AIzaSyD8fly2fgta5ZFFTFICWw-7oEQvRLLnCuk',
 	      'string': word,
 	      'targetLanguage': langCode
 
